@@ -8,10 +8,7 @@ public class Principal {
 
 
 		Date dt = new Date();
-		Date dt1 = new Date(1234567890L);
-		
-		System.out.println(dt);
-		System.out.println(dt1);
+	System.out.println(dt + " : " + dt.getTime());
 
 	}
 
